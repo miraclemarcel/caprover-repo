@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Miracle Marcel">
+    <meta name="description" content="Portfolio website made with; Html, Css, JavaScript">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+     <!------SWIPER.JS CDN-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <!------MATERIALS ICONS CDN-->
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />    
+    <!------GOOGLE FONTS LINK-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+
+<!-----FONT AWESOME ICON-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!------SYLESHEET LINK-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="#"><h3>PORTFOLIO</h3></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="#contact">Let's talk</a></li>
+            </ul>
+            <button id="menu-btn"><span class="material-symbols-sharp">menu</span></button>
+            <button id="close-btn"><span class="material-symbols-sharp">close</span></button>
+        </div>
+    </nav>
+    <!--------------END OF NAVBAR -->
+
+    <section class="landing">
+        <div class="container">
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/miracle-marcel-164834147/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://dribbble.com/Creative_Boss001" target="_blank"><img src="./assets/images/fiverr -logo-white.png" height="18px"></i></i></a>
+                <a href="https://github.com/miraclemarcel" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="info">
+                <h3>Hi, My Name Is Miracle Marcel</h3>
+                <h1>I'm a <span class="auto-type"></span></h1>
+                
+                <p>If you’d like to learn more about how we can work together, please reach out anytime!  
+                It would be a pleasure to work with you.</p>
+                <a href="#contact" class="btn btn-primary">Let's talk</a>
+            </div>
+            <div class="profile-area">
+                <div class="outer-circle">
+                    <span class="material-symbols-sharp">design_services</span>
+                    <span class="material-symbols-sharp">dns</span>
+                    <span class="material-symbols-sharp">code</span>
+                    <span class="material-symbols-sharp">settings_suggest</span>
+                </div>
+                <div class="inner-circle">
+                    <img src="./assets/images/miracle-profile.png" alt="profile image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------END OF LANDING----------------->
+    <section class="about" id="about">
+        <h1>About</h1>
+        <div class="container">
+            <div class="image">
+                <img src="./assets/images/miracle-laptop.png" alt="about image">
+            </div>
+            <div class="info">
+                <p>I enjoy using my skills to contribute to exciting technological projects. 
+                I know technology can bring true revolution in all fields of work and I have a 
+                good foundation of software-related knowledge to work in a better way. I have vast knowledge in
+                Graphic designs, Frontend development, Search engine optimization and Digital marketing. 
+                But I never stop learning, as technology keeps evolving.</p>
+                <p>As a frontend developer, I have the knowledge to design and develop 
+                visually appealing user-friendly websites. I can utilize technologies such as HTML, CSS, 
+                Bootstrap, Material UI, Sass, JavaScript and React.js and React Native to create responsive and dynamic web pages and Mobile Apps that are optimized for various devices. 
+                In terms of graphic design, I have the skills to create professional-looking designs using software 
+                such as Adobe Illustrator and Photoshop. I can also design logos, flyers, brochures, and other marketing 
+                materials to effectively communicate a brand's message.</p>
+            <div class="read-more-content">
+                <p>In terms of digital marketing, I am knowledgeable in various tactics such as email marketing, 
+                social media advertising, content marketing, and influencer marketing. I can help in creating and 
+                executing a comprehensive digital marketing strategy that can drive traffic, generate leads, and 
+                increase conversions. Additionally, I have the ability to analyze data and provide insights to optimize 
+                campaigns for maximum results.</p>
+                <p>Regarding SEO, I have a deep understanding of how search engines work and the ranking factors 
+                that impact search visibility. I can assist in researching keywords, optimizing website content and 
+                structure, and executing link building strategies to improve search engine rankings. Moreover, I can 
+                provide technical SEO audits to identify and resolve any technical issues that may be hindering a website's 
+                search engine performance.</p>
+            </div>
+            <a class="read-more">Show more</a>
+            <a href="#contact" class="btn btn-primary">Hire Me</a>
+            <!-- <a href="#" download class="btn btn-primary"><i class="fa-solid fa-download "></i>Download CV</a> -->
+            </div>
+        </div>
+    </section>
+
+
+<!--------------------END OF ABOUT SECTION--------------- -->
+
+    <section class="skills container" id="skills">
+        <h1>My Skills</h1>
+        <div class="accordion">
+            <!-- skill========== -->
+            <div class="accordion-header" id="heading-1">
+              <h2> FRONTEND DEVELOPMENT</h2>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="accordion-body" id="collapse-1">
+                <div class="line">
+                    <div class="info">
+                      <span>HTML/CSS</span>
+                    </div>
+                    <div class="SlillRight">
+                      <span class="skillRightText">  Proficient</span>
+                    </div>
+                    
+                </div>
+                  <div class="line">
+                    <div class="info">
+                      <span>BOOTSTRAP</span>
+                    </div>
+                    <div class="SlillRight">
+                        <span class="skillRightText"> Experienced</span>
+                      </div>
+                  </div>
+                  <div class="line">
+                    <div class="info">
+                      <span>MATERIAL UI</span>
+                    </div>
+                    <div class="SlillRight">
+                        <span class="skillRightText">Average</span>
+                    </div>
+                  </div>
+                  <div class="line">
+                    <div class="info">
+                      <span>SASS</span>
+                    </div>
+                    <div class="SlillRight">
+                        <span class="skillRightText">  Proficient</span>
+                      </div>
+                  </div>
+                  <div class="line">
+                    <div class="info">
+                      <span>JAVASCRIPT</span>
+                    </div>
+                    <div class="SlillRight">
+                        <span class="skillRightText">Average</span>
+                      </div>
+                  </div>
+                  <div class="line">
+                    <div class="info">
+                      <span>REACT</span>
+                    </div>
+                    <div class="SlillRight">
+                        <span class="skillRightText">Experienced</span>
+                      </div>
+                  </div>
+                  <div class="line">
+                    <div class="info">
+                      <span>REACT NATIVE</span>
+                    </div>
+                    <div class="SlillRight">
+                        <span class="skillRightText">Average</span>
+                      </div>
+                  </div>
+            </div>
+
+             <!-- skill========== -->
+            <div class="accordion-header" id="heading-2">
+              <h2> CMS</h2>
+              <i class="fas fa-plus"></i>
+            </div>
+            <div class="accordion-body" id="collapse-2">
+                <div class="line">
+                    <div class="info">
+                      <span>WORDPRESS</span>
+                    </div>
+                    <div class="SlillRight">
+                        <span class="skillRightText">  Proficient</span>
+                    </div>
+                  </div>
+                  <div class="line">
+                    <div class="info">
+                      <span>SHOPIFY</span>
+                    </div>
+                    <div class="SlillRight">
+                        <span class="skillRightText">  Proficient</span>
+                    </div>
+                  </div>
+            </div>
+
+             <!-- skill========== -->
+            <div class="accordion-header" id="heading-3">
+                <h2> DESIGNS</h2>
+                <i class="fas fa-plus"></i>
+            </div>
+              <div class="accordion-body" id="collapse-3">
+                <div class="line">
+                    <div class="info">
+                      <span>PHOTOSHOP</span>
+                    </div>
+                    <div class="SlillRight">
+                        <span class="skillRightText">Experienced</span>
+                    </div>
+                  </div>
+                <div class="line">
+                    <div class="info">
+                      <span>FIGMA</span>
+                    </div>
+                    <div class="SlillRight">
+                        <span class="skillRightText">Experienced</span>
+                    </div>
+                  </div>
+                  <div class="line">
+                    <div class="info">
+                      <span>ADOBE ILLUSTRATOR</span>
+                    </div>
+                    <div class="SlillRight">
+                        <span class="skillRightText">Average</span>
+                    </div>
+                  </div>
+              </div>
+
+               <!-- skill========== -->
+              <div class="accordion-header" id="heading-4">
+                <h2> BACKEND DEVELOPMENT</h2>
+                <i class="fas fa-plus"></i>
+              </div>
+              <div class="accordion-body" id="collapse-4">
+                <div class="line">
+                    <div class="info">
+                      <span>NODE.JS</span>
+                    </div>
+                    <div class="SlillRight">
+                        <span class="skillRightText">Average</span>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        
+    </section>
+ 
+
+<!--------------------END OF SKILLS SECTION----------------->
+
+     <section class="services" id="services">
+         <h1>Services</h1>
+         <div class="container">
+             <div class="service">
+                <img src="./assets/images/ribbon-solid.svg" alt="ribbon">
+                 <h3>Digital Marketing / SEO</h3>
+                 <p>With my digital marketing and SEO services, you can expect: <br>
+                    <i class="fas fa-check"></i> &nbsp; &nbsp; Increased online visibility and search engine rankings <br>
+                    <i class="fas fa-check"></i> &nbsp; &nbsp; A higher number of qualified leads and conversions <br>
+                    <i class="fas fa-check"></i> &nbsp; &nbsp; A strong online presence that builds trust and credibility with your target audience <br>
+                    <i class="fas fa-check"></i> &nbsp; &nbsp; Data-driven results and reporting to measure the success of your campaigns, etc</p>
+             </div>
+             <div class="service">
+                <img src="./assets/images/ribbon-solid.svg" alt="ribbon">
+                 <h3>Web/App Development</h3>
+                 <p>With my Web/App development services, you can expect: <br>
+                    <i class="fas fa-check"></i> &nbsp; &nbsp; Custom website design and development, with (CMS) integration <br>
+                    <i class="fas fa-check"></i> &nbsp; &nbsp; iOS and Android app development <br>
+                    <i class="fas fa-check"></i> &nbsp; &nbsp;  User experience (UX) and user interface (UI) design<br>
+                    <i class="fas fa-check"></i> &nbsp; &nbsp; Custom e-commerce platforms and shopping carts with payment gateway integration, etc
+                </p>
+             </div>
+             <div class="service">
+                <img src="./assets/images/ribbon-solid.svg" alt="ribbon">
+                 <h3>Graphic Designs</h3>
+                 <p>Graphic Design services includes: <br>
+                    <i class="fas fa-check"></i> &nbsp; &nbsp; Logo and flyer designs<br>
+                    <i class="fas fa-check"></i> &nbsp; &nbsp; Brand identity development and Packaging design <br>
+                    <i class="fas fa-check"></i> &nbsp; &nbsp; Social media graphics and ads<br>
+                    <i class="fas fa-check"></i> &nbsp; &nbsp; Print materials, including business cards, brochures, and flyers<br>
+                    <i class="fas fa-check"></i> &nbsp; &nbsp; Infographics and data visualization, etc
+                </p>
+             </div>
+         </div>
+     </section>
+
+<!--------------------END OF SERVICES SECTION----------------->
+
+    <!-- PROJECTS------ -->
+   <section class="recent-work" id="portfolio">
+       <div class="container">
+           <h4>My Recent Work</h4>
+           <h1>Most Recent Projects</h1>
+         <ul>
+            <li class="list active" data-filter="all">ALL</li>
+            <li class="list" data-filter="React">REACT.JS</li>
+            <!-- <li class="list" data-filter="mern-stack">MERN STACK</li> -->
+            <li class="list" data-filter="html-css">HTML/CSS</li>
+            <li class="list" data-filter="wordpress">WORDPRESS</li>
+            <li class="list" data-filter="figma">FIGMA</li>
+            <li class="list" data-filter="mobile-app">MOBILE APP</li>
+            <!-- <li class="list" data-filter="graphics">GRAPHIC DESIGNS</li> -->
+         </ul>
+         <div class="product">
+            <div class="ItemBox html-css">
+                <img src="./assets/images/crud-blog.png" alt="Crud Blog">
+                <h3>Responsive Crud Blog Website</h3>
+                <p>Introducing my new Fully responsive CRUD blog theme, built with HTML, CSS and JavaScript. 
+                Experience seamless navigation and modern design.</p>
+                <span class="grey-span">Added: Nov 9, 2022</span>
+                <div class="action">
+                    <a href="https://github.com/miraclemarcel/Crud-blog-site" target="blank">Github</a>
+                    <a href="https://crud-web-application.netlify.app/" target="blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="ItemBox html-css">
+                <img src="./assets/images/html-admin-dashboard.png" alt="html-admin-dashboard">
+                <h3>E-commerce Admin Dashboard</h3>
+                <p>Responsive user-friendly E-ccomerce Dashboard with <b>dark</b> and <b>light</b> theme mode,
+                 built with HTML, CSS and JavaScript.</p>
+                <span class="grey-span">Added:  Dec 27, 2022</span>
+                <div class="action">
+                    <a href="https://github.com/miraclemarcel/ecommerce-admin-dashboard" target="blank">Github</a>
+                    <a href="https://admin-dashboard-html-css-js.netlify.app/" target="blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="ItemBox wordpress">
+                <img src="./assets/images/reejas website.png" alt="reejas web">
+                <h3>Online Voting Contest Website</h3>
+                <p>Contest voting website, built with Elementor in Wordpress. Allow voters to cast their votes and engage with the competition, while easily managing 
+                entries and tracking results.</p>
+                <span class="grey-span">Added: Jan 3, 2023</span>
+                <div class="action">
+                    <a href="#">Github</a>
+                    <a href="https://missreejasonlinepageant.com/" target="blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="ItemBox html-css">
+                <img src="./assets/images/code-editor.png" alt="code edito">
+                <h3>Code Editor</h3>
+                <p>Code editor made with html, css and JavaScript</p>
+                <span class="grey-span">Added: Feb 17, 2023</span>
+                <div class="action">
+                    <a href="https://github.com/miraclemarcel/ide-code-editor" target="blank">Github</a>
+                    <a href="https://ide-code-editor.netlify.app/" target="blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="ItemBox React">
+                <img src="./assets/images/react-portfolio-thumbnail.png" alt="project 1">
+                <h3>Portfolio website</h3>
+                <p>One page portfolio website, built using react.js and css</p>
+                <span class="grey-span">Added: January 15, 2023</span>
+                <div class="action">
+                    <a href="https://github.com/miraclemarcel/react-portfolio-website" target="blank">Github</a>
+                    <a href="https://react-portfolio-website-mm.netlify.app/" target="blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="ItemBox wordpress">
+                <img src="./assets/images/multivendor-website-wordpresss.png" alt="e-commerce website">
+                <h3>Multivendor e-commrce website</h3>
+                <p>A multivendor e-commerce website built using elemntor and dokan pro, in wordpress.</p>
+                <span class="grey-span">Added: May 26, 2023</span>
+                <div class="action">
+                    <a href="#" target="blank">Github</a>
+                    <a href="https://buymydigitals.com/" target="blank">Live Demo</a>
+                </div>
+            </div>
+            <div class="ItemBox figma">
+                <img src="./assets/images/Skyshow-figma-design.png" alt="crypto-giftcard-ui">
+                <h3>Giftcard & Crypto Trading App</h3>
+                <p>Giftcard and Crypto Trading mobile app UI design, mader using Figma</p>
+                <span class="grey-span">Added: June 23, 2023</span>
+                <div class="action">
+                    <a href="#" target="blank">Github</a>
+                    <a href="https://www.figma.com/proto/hWId0Lwj4I3hNk8Bt3bGmV/Skyshowng-mobile-app-UI?page-id=0%3A1&type=design&node-id=270-1729&viewport=775%2C788%2C0.08&t=vQJYLRpTPl8omOHe-1&scaling=min-zoom&starting-point-node-id=384%3A1720&show-proto-sidebar=1&mode=design" target="blank">Live Demo</a>
+                </div>
+            </div>
+            <!-- <div class="ItemBox html-css">
+                <img src="./assets/images/crud-website-image.png" alt="project 1">
+                <h3>Crud Blog Website</h3>
+                <p>Introducing my new CRUD blog theme, built with HTML and CSS. 
+                Experience seamless navigation, modern design, and easy customization options.</p>
+                <span class="grey-span">Added: 16/11/2022</span>
+                <div class="action">
+                    <a href="https://github.com" target="blank">Github</a>
+                    <a href="https://devplug.com" target="blank">Live Demo</a>
+                </div>
+            </div> -->
+                 <!-- ===========GRAPHIC DESIGNS=============== -->
+                 <!-- <div class="ItemBox graphics">
+                    <img src="./assets/images/crud-website-image.png" alt="project 1">
+                    <h3>Crud Blog Website</h3>
+                    <p>Introducing my new CRUD blog theme, built with HTML and CSS. 
+                    Experience seamless navigation, modern design, and easy customization options.</p>
+                    <span class="grey-span">Added: 16/11/2022</span>
+                </div>
+                <div class="ItemBox graphics">
+                    <img src="./assets/images/crud-website-image.png" alt="project 1">
+                    <h3>Crud Blog Website</h3>
+                    <p>Introducing my new CRUD blog theme, built with HTML and CSS. 
+                    Experience seamless navigation, modern design, and easy customization options.</p>
+                    <span class="grey-span">Added: 16/11/2022</span>
+                </div>
+                <div class="ItemBox graphics">
+                    <img src="./assets/images/crud-website-image.png" alt="project 1">
+                    <h3>Crud Blog Website</h3>
+                    <p>Introducing my new CRUD blog theme, built with HTML and CSS. 
+                    Experience seamless navigation, modern design, and easy customization options.</p>
+                    <span class="grey-span">Added: 16/11/2022</span>
+                </div>
+                <div class="ItemBox graphics">
+                    <img src="./assets/images/crud-website-image.png" alt="project 1">
+                    <h3>Crud Blog Website</h3>
+                    <p>Introducing my new CRUD blog theme, built with HTML and CSS. 
+                    Experience seamless navigation, modern design, and easy customization options.</p>
+                    <span class="grey-span">Added: 16/11/2022</span>
+                </div>
+                <div class="ItemBox graphics">
+                    <img src="./assets/images/crud-website-image.png" alt="project 1">
+                    <h3>Crud Blog Website</h3>
+                    <p>Introducing my new CRUD blog theme, built with HTML and CSS. 
+                    Experience seamless navigation, modern design, and easy customization options.</p>
+                    <span class="grey-span">Added: 16/11/2022</span>
+                </div> -->
+         </div>
+       </div>
+   </section>
+   <!------------------END OF PORTFOLIO SECTION----------------->
+
+
+    
+
+
+
+
+
+<section class="contact-section" id="contact">
+    <h1>Let's Talk</h1>
+    <p>You can reach me with any of the contact informations below.</p>
+    <div class="contacts container">
+        <div class="contact-info">
+            <div class="contact">
+                <div class="contact-me">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>Phone number</span>
+                    <h3><a href="tel:+2349135960394">+2349135960394</a></h3>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="contact-me">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Email</span>
+                    <h3><a href="mailto:marcellush123@gmail.com">marcellush123<br>@gmail.com</a></h3>
+                    <h3></h3>
+                </div>
+            </div>
+            <div class="contact">
+                <div class="contact-me">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>Chat with me</span>
+                   <h3><a href="https://wa.me/2349135960394">Whatsapp</a></h3>
+                </div>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h3>Email me your inquiry</h3>
+            <form action="https://formsubmit.co/el/xoneze" method="POST">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <input type="Submit" value="Submit" class="btn btn-primary">
+            </form>
+        </div>
+    </div>
+</section>
+
+<!--------------------------------------END OF CONTACT----------------------------------->
+
+<footer>
+    <div class="container">
+        <a href="#"><h3>PORTFOLIO</h3></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Let's talk</a></li>
+        </ul>
+        <div class="socials">
+            <a href="https://www.linkedin.com/in/miracle-marcel-164834147/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://dribbble.com/Creative_Boss001" target="_blank"><i class="fa-brands fa-dribbble"></i></a>
+            <a href="https://github.com/miraclemarcel" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </div>
+    <div class="copyright">
+        &copy; Copyright 2023| Miracle Marcel | All Rights Reserved. 
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.6.3.js"
+  integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+  crossorigin="anonymous">
+</script>
+
+
+<!-- --------------SWIPER JS------------ -->
+
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   <script src="./main.js"></script>
+
+<!----------------TYPED JS-------------->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".auto-type", {
+        strings: ["Frontend Developer", "Digital Marketer & SEO Expert", "Technical Writer", "Graphics Designer"],
+        typeSpeed: 150,
+        backSpeed: 50,
+        loop: true
+    })
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
